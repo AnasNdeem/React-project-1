@@ -1,0 +1,133 @@
+.blog-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    padding: 8rem;
+}
+.blog-heading{
+    margin: 10px;
+}
+.blog-heading h1{
+    color:  rgba(238, 130, 238, 1);
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+
+.blogs-row{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.blog-col1{
+    width: 650px;
+    margin: 1rem;
+    padding: rem;
+    background-color: antiquewhite;
+}
+.blog-col1 img{
+    width: 100%;
+    height: 50%;
+}
+.blog-col1 .blog-text{
+    text-align: center;
+}
+.blog-col1 .blog-text h6{
+    font-family: var(--font-family);
+
+}
+.blog-col1 .blog-text h1{
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.blog-col1 .blog-text button{
+    font-family: var(--font-family);
+    font-size: medium;
+    margin: 2rem;
+    border: none;
+    background-color: transparent;
+    color: brown;
+    cursor: pointer;
+}
+.blog-col2{
+    width: 650px;
+    margin: 1rem;
+    padding: rem;
+    background-color: antiquewhite;
+}
+.blog-col2 img{
+    width: 100%;
+    height: 50%;
+}
+.blog-col2 .blog-text{
+    text-align: center;
+}
+.blog-col2 .blog-text h6{
+    font-family: var(--font-family);
+
+}
+.blog-col2 .blog-text h1{
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.blog-col2 .blog-text button{
+    font-family: var(--font-family);
+    font-size: medium;
+    margin: 2rem;
+    border: none;
+    background-color: transparent;
+    color: brown;
+    cursor: pointer;
+}
+.blog-col4{
+    width: 650px;
+    margin: 1rem;
+    padding: rem;
+    background-color: antiquewhite;
+}
+.blog-col4 img{
+    width: 100%;
+    height: 50%;
+}
+.blog-col4 .blog-text{
+    text-align: center;
+}
+.blog-col4 .blog-text h6{
+    font-family: var(--font-family);
+
+}
+.blog-col4 .blog-text h1{
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.blog-col4 .blog-text button{
+    font-family: var(--font-family);
+    font-size: medium;
+    margin: 2rem;
+    border: none;
+    background-color: transparent;
+    color: brown;
+    cursor: pointer;
+}
+@media screen and (max-width: 750px){
+    .blog-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blogs-row{
+        flex-direction: column;
+    }
+    .blog-col1{
+        width: 100%;
+    }
+    .blog-col2{
+        width: 100%;
+    }
+    .blog-col4{
+        width: 100%;
+    }
+}
